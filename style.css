@@ -21,6 +21,7 @@ p {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    border: red solid 4px;
 }
 .Form-Container{
     display: flex;
@@ -36,12 +37,12 @@ form{
     font-size: 11px;
     flex-shrink: 1;
     text-align: left;
-    width: 151.6px;
+    width: 100%;
 }
 
 input{
     flex-shrink:1;
-    width: 145px;
+    width: 100%;
 }
 
 .buttonhome{
@@ -57,21 +58,22 @@ input{
 #blue-text{
     color: #1f829f;
 }
-
+.bigcontainer{
+    border: solid red 4px;
+}
 #red-text{
     color: red;
     font-weight: bold;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
 
     .Form-Container{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         justify-content: flex-start;
     }
-
 }
