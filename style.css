@@ -36,7 +36,7 @@ form{
     font-size: 11px;
     flex-shrink: 1;
     text-align: left;
-    width: 154.65px;
+    width: 151.6px;
 }
 
 input{
@@ -49,6 +49,18 @@ input{
     margin-top: 5px;
     display: flex;
     justify-content: flex-start;
+}
+#dope{
+    color: red;
+    font-weight: bold;
+}
+#blue-text{
+    color: #1f829f;
+}
+
+#red-text{
+    color: red;
+    font-weight: bold;
 }
 
 @media (max-width: 900px) {
