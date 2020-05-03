@@ -1,3 +1,5 @@
+
+
 h1{
     padding-bottom: 0;
     margin-bottom: 0;
@@ -42,6 +44,13 @@ input{
     width: 145px;
 }
 
+.buttonhome{
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
 @media (max-width: 900px) {
 
     .Form-Container{
@@ -50,9 +59,7 @@ input{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-        border: 0;
+        justify-content: flex-start;
     }
+
 }
