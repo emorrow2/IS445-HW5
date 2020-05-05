@@ -1,19 +1,23 @@
 
-
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
     padding-bottom: 0;
     margin-bottom: 0;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 p {
-    font-size: 12px;
+    font-size: 1.5rem;
 }
 #Container-1{
     Background-color: #1f829f;
     color: white;
-    width: 90%;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
+    width: 90vw;
+    padding-bottom: 8vh;
+    padding-top: 2vh;
+    margin-bottom: 3vh;
+    border-radius: 5px;
 }
 .Contain-All{
     display: flex;
@@ -21,59 +25,107 @@ p {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    border: red solid 4px;
+    max-width: 90vw;
 }
-.Form-Container{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-form{
-    font-size: 11px;
-    flex-shrink: 1;
-    text-align: left;
-    width: 100%;
-}
-
-input{
-    flex-shrink:1;
-    width: 100%;
-}
-
-.buttonhome{
-    width: 90%;
-    margin-top: 5px;
-    display: flex;
-    justify-content: flex-start;
-}
-#dope{
-    color: red;
-    font-weight: bold;
-}
-#blue-text{
-    color: #1f829f;
-}
-.bigcontainer{
-    border: solid red 4px;
-}
-#red-text{
-    color: red;
-    font-weight: bold;
-}
-
-@media (min-width: 900px) {
 
     .Form-Container{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 88vw;
+    }
+    
+    form{
+        text-align: left;
+        min-height: 4vh;
+        max-width: 89vw;
+        min-width: 89vw;
+        margin-top: 1vh;
+    }
+    input{
+        min-height: 5vh;
+        max-width: 88vw;
+        min-width: 88vw;
+        border: #D3D3D3 solid .75px;
+        border-radius:5px;
+        background-color: transparent;
+        margin-top: .5vh;
+        padding-left: 1.5vw;
+    }
+
+    label{
+        font-size: 1.2rem;
+    }
+
+
+
+
+@media screen and (min-width: 900px){
+    .Form-Container{
+        display: flex;
         flex-wrap: nowrap;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: flex-start;
+        justify-content: space-between;
+        width: 88vw;
+    }
+    
+    form{
+        text-align: left;
+        min-height: 4vh;
+        max-width: 40vw;
+        min-width: 40vw;
+    }
+    input{
+        min-height: 5vh;
+        max-width: 40vw;
+        min-width: 40vw;
+        border: #D3D3D3 solid .75px;
+        border-radius:5px;
+        background-color: transparent;
+        padding-left: 1.5vw;
     }
 }
+
+
+.buttonhome{
+    width: 88vw;
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: #63a1de solid 3.5px;
+    border-radius:5px;
+    background-color: transparent;
+    color: #4877f4;
+    padding: 1.2vh, 3vh;
+    min-height: 7.35vh;
+    min-width: 9vw;
+}
+
+
+/* Styles for java added html */
+
+#dope{
+    color: red;
+    font-weight: bold;
+    align-self: baseline;
+    padding-left: 1vw;
+}
+#blue-text{
+    color: #1f829f;
+    align-self: baseline;
+    padding-left: 1vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#red-text{
+    color: red;
+    font-weight: bold;
+    align-self: baseline;
+    padding-left: 1vw;
+    font-size: 1.125rem;
+    margin-top: 1vw;
+}
+
