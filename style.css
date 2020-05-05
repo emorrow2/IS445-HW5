@@ -13,11 +13,13 @@ p {
 #Container-1{
     Background-color: #1f829f;
     color: white;
-    width: 90vw;
+    width: 91.75vw;
     padding-bottom: 8vh;
     padding-top: 2vh;
     margin-bottom: 3vh;
     border-radius: 5px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
 }
 .Contain-All{
     display: flex;
@@ -25,7 +27,7 @@ p {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    max-width: 90vw;
+    /*max-width: 90vw;*/
 }
 
     .Form-Container{
@@ -99,9 +101,9 @@ button{
     background-color: transparent;
     color: #4877f4;
     padding: 1.2vh, 3vh;
-    min-height: 7.35vh;
-    min-width: 9vw;
-    font-size: 1.5rem;
+    min-height: 6.25vh;
+    min-width: 7.75vw;
+    font-size: 1.35rem;
 }
 
 

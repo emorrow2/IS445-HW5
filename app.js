@@ -7,7 +7,7 @@ function takeNums(){
     if (num1 < 2 || num1 > 100 || num2 < 2 || num2 > 100){
         document.getElementById('dope').innerHTML = 'Invalid input, please try again.';
     }
-    else if (num1 >= 2 && num1 <= 100 && num2 >= 2 && num2 <= 100){
+    else if (num1 >= 2 && num1 <= 100.00 && num2 >= 2 && num2 <= 100.00){
         arrayBuilder(num1, num2);
         document.getElementById('dope').innerHTML = ''
     }
